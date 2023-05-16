@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-image: url('../img/cenda.jpg');
+    background-color: rgba(72, 116, 196, 1);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.card {
+    width: 400px;
+    border: none;
+}
+
+.btr {
+    border-top-right-radius: 5px !important;
+}
+
+.btl {
+    border-top-left-radius: 5px !important;
+}
+
+.nav-pills {
+    display: table !important;
+    width: 100%;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px;
+    border-bottom: 1px solid #0d6efd40;
+    font-size: 20px !important;
+}
+
+.nav-item {
+    display: table-cell;
+    background: #0d6efd2e !important;
+}
+
+.form {
+    padding: 10px;
+    height: 300px;
+}
+
+.form input {
+    margin-bottom: 12px;
+    border-radius: 3px;
+}
+
+.form input:focus {
+    box-shadow: none;
+}
+
+.form button {
+    margin-top: 20px;
+}
+
+.custom-height {
+    height: 300px;
+}
+
+.nav-item {
+    color: red !important;
+}
+
+.nav-link.active {
+    background-color: #ffe404 !important;
+    color: #000 !important;
+}
+
+.enter {
+    background-color: #92d050 !important;
+    margin-top: 30px !important;
+    border-radius: 20px;
+    width: 150px;
+    padding: 6px;
+    font-size: 22px !important;
+    font-family: 'Roboto', sans-serif !important;
+    border:2px solid  #92d050 !important;
+}
+
+.enter:hover{
+    border:2px solid  #92d050 !important;
+    background-color: #92d050 !important;
+    margin-top: 30px !important;
+    border-radius: 20px;
+    width: 150px;
+    padding: 6px;
+    font-size: 22px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+::placeholder {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+    color: #fff;
+    background-color: #488CFF !important;
+}
+
+.nav-link:hover {
+    color: #fff;
+}

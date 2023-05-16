@@ -1,0 +1,132 @@
+:root {
+    --primary: rgba(72, 116, 196, 1);
+    --light: #ffffff;
+    --grey: #efefef;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300;
+    color: var(--primary);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.bg-light {
+    background-color: var(--light) !important;
+}
+
+.bg-grey {
+    background-color: var(--grey) !important;
+}
+
+.bg-mix {
+    background: linear-gradient(180deg, var(--light) 50%, var(--grey) 0);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border: 0;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary);
+}
+
+
+#sidebar-container {
+    min-height: 100vh;
+}
+
+#sidebar-container .logo {
+    padding: 0.875rem 1.25rem;
+}
+
+#sidebar-container .menu {
+    width: 18rem;
+}
+
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    width: 50% !important;
+}
+
+#content {
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.avatar {
+    max-width: 35px;
+}
+
+.btn-search {
+    right: 0;
+}
+
+.stat {
+    border-right: 1px solid var(--grey);
+}
+
+
+.info_card {
+    font-weight: 500;
+    color: #000;
+    font-size: 16px;
+}
+
+.border-success {
+    border: 3px solid #145F03 !important;
+}
+
+#check {
+    color: #145F03;
+    font-size: 80px;
+}
+
+
+#numbderdni {
+    color: #000;
+    font-size: 18px;
+}
+
+
+.badge-custom {
+    font-size: 16px;
+    padding: 8px 12px;
+}
+
+
+form label {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #000;
+}
+
+
+
+
+@media (max-width: 768px) {
+    #sidebar-container {
+        display: none;
+    }
+
+    .stat {
+        border: 0;
+    }
+
+    .logo img {
+        display: none !important;
+    }
+}
